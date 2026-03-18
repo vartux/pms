@@ -1,0 +1,42 @@
+[
+    {
+        "operation": "-",
+        "value": "500",
+        "description": "flips"
+    },
+    {
+        "operation": "+",
+        "value": "200",
+        "description": "flyer"
+    },
+    {
+        "operation": "-",
+        "value": "50.6",
+        "description": "caramelo"
+    },
+    {
+        "operation": "-",
+        "value": "50.5",
+        "description": "asd"
+    },
+    {
+        "operation": "-",
+        "value": "660",
+        "description": "caramleo"
+    },
+    {
+        "operation": "+",
+        "value": "500",
+        "description": "pago"
+    },
+    {
+        "operation": "+",
+        "value": "2.01",
+        "description": "pago"
+    },
+    {
+        "operation": "-",
+        "value": "200",
+        "description": "flips"
+    }
+]
