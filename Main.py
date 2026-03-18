@@ -82,7 +82,7 @@ def menu():
         print("\n--------------------------")
         print("Sistema de Gestion Personal")
         print("--------------------------\n")
-        print(f"Balance disponible: {round(config_data["balance"],2)}\n")
+        print(f"Balance disponible: {round(config_data['balance'],2)}\n")
         print("1) Agregar Gasto")
         print("2) Agregar Fondos")
         print("3) Operaciones ")
@@ -103,9 +103,9 @@ def menu():
             case "3":
                 print(f"\nOperaciones realizadas({ len(read_operations())}): \n")
                 for operation in read_operations():
-                    print(f"\nOperacion: {operation["operation"]}\nConcepto: {operation["description"]}\nMonto:{operation["value"]}\n---------")
+                    print(f"\nOperacion: {operation['operation']}\nConcepto: {operation['description']}\nMonto:{operation['value']}\n---------")
             case "4":
-                print(f"Bye {config_data["user"]}")
+                print(f"Bye {config_data['user']}")
                 break
             case _: #Este es el default
                 print("Opcion no reconocida.")    
