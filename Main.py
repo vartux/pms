@@ -57,15 +57,15 @@ def login():
     print("--------------------------\n")
     login_attemps = 0
     login = False
-    while((login_attemps <= config_data["max_attemps"]) and not login):
+    while((login_attemps <= config_data['max_attemps']) and not login):
         user = input("Ingresa tu usuario: ")
         password = input("Ingresa tu contraseña: ")
-        if(user == config_data["user"] and password == config_data["password"]):
+        if(user == config_data['user'] and password == config_data['password']):
             print(f"Bienvenido { user }")
             login = True
         else:
             login_attemps+=1
-            remain_attemps = config_data["max_attemps"] - login_attemps
+            remain_attemps = config_data['max_attemps'] - login_attemps
             print("Usuario o contraseña incorrecta.")
             print(f"Te quedan {remain_attemps+1} intentos.")
     
